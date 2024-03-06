@@ -31,7 +31,8 @@ async function UserOrLogin() {
         //   <IconNextChat className="size-6 mr-2 dark:hidden" inverted />
         //   <IconNextChat className="hidden size-6 mr-2 dark:block" />
         // </Link>
-        <Link href="/">Home</Link>
+        // <Link href="/">Home</Link>
+        <br/>
       )}
       <div className="flex items-center">
         <IconSeparator className="size-6 text-muted-foreground/50" />
