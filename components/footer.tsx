@@ -12,10 +12,8 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       )}
       {...props}
     >
-      Kaká, assistente virtual da K8{' '}
-      <ExternalLink href="https://www.meuk8.com.br/">MeuK8</ExternalLink> feito com:{' '}
-      <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> todos os direitos reservados.
-      .
+      Kaká, assistente virtual da K8 -{' '}
+      <ExternalLink href="https://www.meuk8.com.br/">meuk8.com.br</ExternalLink>. Todos os direitos reservados.
     </p>
   )
 }

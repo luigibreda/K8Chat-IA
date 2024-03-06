@@ -49,14 +49,14 @@ export function ChatPanel({
               className="bg-background"
             >
               <IconStop className="mr-2" />
-              Stop generating
+              Parar de responder
             </Button>
           ) : (
             messages?.length >= 2 && (
               <div className="flex space-x-2">
                 <Button variant="outline" onClick={() => reload()}>
                   <IconRefresh className="mr-2" />
-                  Regenerate response
+                  Responda novamente
                 </Button>
                 {id && title ? (
                   <>
