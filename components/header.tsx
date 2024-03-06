@@ -6,7 +6,7 @@ import { auth } from '@/auth'
 import { Button, buttonVariants } from '@/components/ui/button'
 import {
   IconGitHub,
-  IconNextChat,
+  IconK8,
   IconSeparator,
   IconVercel
 } from '@/components/ui/icons'
@@ -27,12 +27,10 @@ async function UserOrLogin() {
           <SidebarToggle />
         </>
       ) : (
-        // <Link href="/" target="_blank" rel="nofollow">
-        //   <IconNextChat className="size-6 mr-2 dark:hidden" inverted />
-        //   <IconNextChat className="hidden size-6 mr-2 dark:block" />
-        // </Link>
-        // <Link href="/">Home</Link>
-        <br/>
+        <Link href="/" target="_blank" rel="nofollow">
+          <IconK8 className="size-6 mr-2 dark:hidden" inverted />
+          <IconK8 className="hidden size-6 mr-2 dark:block" />
+        </Link>
       )}
       <div className="flex items-center">
         <IconSeparator className="size-6 text-muted-foreground/50" />

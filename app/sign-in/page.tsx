@@ -16,12 +16,12 @@ export default async function SignInPage() {
         <LoginButton
           provider="github"
           icon={<IconGitHub className="mr-2" />}
-          text="Login com GitHub"
+          text=" Login com GitHub"
         />
         <LoginButton
           provider="google"
           icon={<IconGoogle className="mr-2" />} // Certifique-se de ter um componente IconGoogle
-          text="Login com Google"
+          text=" Login com Google"
         />
       </div>
     </div>
