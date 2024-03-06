@@ -2,7 +2,7 @@ import { UseChatHelpers } from 'ai/react'
 
 import { Button } from '@/components/ui/button'
 import { ExternalLink } from '@/components/external-link'
-import { IconArrowRight, IconGoogle, IconK8 } from '@/components/ui/icons'
+import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
@@ -23,7 +23,16 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
   return (
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
-        <IconK8 className="mr-2" />  
+        <img 
+        src="https://www.meuk8.com.br/wp-content/uploads/2023/02/logo-footer.svg" 
+        alt="K8 icon" 
+        style={{
+          marginLeft: 'auto',
+          marginRight: 'calc(50% + -30px)',
+          marginTop: '10px',
+          marginBottom: '20px'
+        }} 
+        />  
         <h1 className="mb-2 text-lg font-semibold">
           Aqui é a Kaká assistente virtual da K8!
         </h1>
