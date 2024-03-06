@@ -14,7 +14,7 @@ export const metadata = {
     default: 'K8 - IA Chatbot',
     template: `%s - K8 - IA Chatbot'`
   },
-  description: 'An AI-powered chatbot template built with Next.js and Vercel.',
+  description: 'Uma assisntente virtual feita especialmente para você!',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
