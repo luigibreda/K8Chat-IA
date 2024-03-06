@@ -14,7 +14,7 @@ interface LoginButtonProps extends ButtonProps {
 }
 
 export function LoginButton({
-  provider = 'github', // Adiciona uma prop 'provider' com 'github' como default
+  provider = 'google', // Adiciona uma prop 'provider' com 'github' como default
   text = 'Login with GitHub',
   showIcon  = true,
   className,
