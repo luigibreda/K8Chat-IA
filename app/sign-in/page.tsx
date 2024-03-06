@@ -3,6 +3,9 @@ import { LoginButton } from '@/components/login-button'
 import { redirect } from 'next/navigation'
 import { IconGitHub, IconGoogle } from '@/components/ui/icons'; 
 
+// Adicione seus próprios caminhos de importação conforme necessário
+import AssistenteVirtualImg from '@/assets/assistente-virtual-kaka.jpg'; // Caminho para a imagem do assistente
+
 export default async function SignInPage() {
   const session = await auth()
   // redirect to home if user is already logged in
@@ -12,7 +15,18 @@ export default async function SignInPage() {
 
   return (
     <div className="flex h-[calc(100vh-theme(spacing.16))] items-center justify-center py-10">
-    <div className="flex flex-col space-y-4"> {/* Ajuste o layout conforme necessário */}
+      <div className="flex flex-col space-y-4"> {/* Ajuste o layout conforme necessário */}
+        {/* Card do Assistente Virtual */}
+        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img className="w-full" src={AssistenteVirtualImg} alt="Kaká - Assistente Virtual da K8" />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">Kaká - Assistente Virtual da K8</div>
+            <p className="text-gray-700 text-base">
+              Conheça o Kaká, seu assistente virtual para tornar sua experiência ainda melhor.
+            </p>
+          </div>
+        </div>
+
         <LoginButton
           provider="github"
           icon={<IconGitHub className="mr-2" />}
