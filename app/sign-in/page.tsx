@@ -15,7 +15,7 @@ export default async function SignInPage() {
       <div className="flex flex-col space-y-4"> {/* Ajuste o layout conforme necessário */}
         {/* Card do Assistente Virtual */}
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <img className="w-full" src='/kaka-k8-ia.jpg' alt="Kaká - Assistente Virtual da K8" />
+          <img className="w-full" src='https://i.ibb.co/8B7rdkd/kaka-k8-ia-removebg-preview.png' alt="Kaká - Assistente Virtual da K8" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Kaká - Assistente Virtual da K8</div>
             <p className="text-gray-700 text-base">
