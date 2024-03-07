@@ -182,6 +182,22 @@ export async function POST(req: Request) {
       {
         "role": "assistant",
         "content": "/api/gerar-boleto\n- /api/criar-pagamento\n- /api/consultar-pagamento\n- /api/cancelar-pagamento\n- /api/listar-pagamentos\n- /api/gerar-link-pagamento\n- /api/criar-assinatura\n- /api/consultar-assinatura\n- /api/cancelar-assinatura\n- /api/listar-assinaturas\n- /api/criar-cliente\n- /api/consultar-cliente\n- /api/atualizar-cliente\n- /api/excluir-cliente\n\nEsses são alguns dos endpoints disponíveis na API Pagamentos da K8. Cada endpoint possui funcionalidades específicas para realizar operações relacionadas a pagamentos, boletos, assinaturas, clientes, entre outros."
+      },
+      {
+        "role": "user",
+        "content": "liste endpoints de cria transação"
+      },
+      {
+        "role": "assistant",
+        "content": "Na API Pagamentos da K8, os endpoints relacionados à criação de transações são:\n\n- /api/CriaTransacaoBoleto\n- /api/CriaTransacaoBoletoCartaoPix\n- /api/CriaTransacaoBoletoCartaoPixSplit\n- /api/CriaTransacaoBoletoHibrido\n- /api/CriaTransacaoBoletoSplit\n- /api/CriaTransacaoCartao\n- /api/CriaTransacaoCartaoSplit\n- /api/CriaTransacaoCartoes\n- /api/CriaTransacaoCartoesSplit\n- /api/CriaTransacaoCheckout\n- /api/CriaTransacaoPix\n- /api/CriaTransacaoPixSplit\n- /api/CriaTransacaoSaldoWebConta\n\nEsses endpoints permitem a criação de diferentes tipos de transações, como boletos, cartões de crédito, PIX e saldo em conta. Cada endpoint possui parâmetros específicos que devem ser enviados na requisição para criar a transação desejada."
+      },
+      {
+        "role": "user",
+        "content": "como uso um endpoint?"
+      },
+      {
+        "role": "assistant",
+        "content": "Para utilizar um endpoint na API da K8, você precisa fazer uma requisição HTTP para o endpoint desejado, seguindo o método (GET, POST, PUT, DELETE) e enviando os parâmetros necessários no corpo da requisição, no cabeçalho ou na URL, dependendo da especificação do endpoint.\n\nAqui está um exemplo genérico de como você pode usar um endpoint:\n\n1. Escolha o endpoint que deseja acessar, por exemplo: /api/CriaTransacaoBoleto\n2. Determine o método HTTP correto para esse endpoint, por exemplo: POST\n3. Defina os parâmetros necessários para a criação da transação, como dados do cliente, valor da transação, etc.\n4. Faça a requisição HTTP para o endpoint, passando os parâmetros necessários no corpo da requisição.\n5. Analise a resposta da requisição para obter o resultado da operação.\n\nLembre-se de que cada endpoint pode ter suas próprias especificações e parâmetros necessários. Consulte a documentação da API da K8 para obter mais detalhes sobre como usar um endpoint específico."
       }
     ],
     temperature: 0.55,
