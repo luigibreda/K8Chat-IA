@@ -184,7 +184,11 @@ export async function POST(req: Request) {
         "content": "/api/gerar-boleto\n- /api/criar-pagamento\n- /api/consultar-pagamento\n- /api/cancelar-pagamento\n- /api/listar-pagamentos\n- /api/gerar-link-pagamento\n- /api/criar-assinatura\n- /api/consultar-assinatura\n- /api/cancelar-assinatura\n- /api/listar-assinaturas\n- /api/criar-cliente\n- /api/consultar-cliente\n- /api/atualizar-cliente\n- /api/excluir-cliente\n\nEsses são alguns dos endpoints disponíveis na API Pagamentos da K8. Cada endpoint possui funcionalidades específicas para realizar operações relacionadas a pagamentos, boletos, assinaturas, clientes, entre outros."
       }
     ],
-    temperature: 0.7,
+    temperature: 0.55,
+    max_tokens: 256,
+    top_p: 1,
+    frequency_penalty: 0,
+    presence_penalty: 0,
     stream: true
   })
 
