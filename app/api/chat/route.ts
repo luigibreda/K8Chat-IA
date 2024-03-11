@@ -108,7 +108,11 @@ export async function POST(req: Request) {
     ...treinamento,
     ...messages
   ];
+
+  const combinadoObj = Object.assign({}, treinamento, messages);
+
   console.dir("mensagemComContexto: ", mensagemComContexto);
+  console.dir("combinadoObj: ", combinadoObj);
 
   const res = await openai.chat.completions.create({
     model: 'gpt-3.5-turbo',
