@@ -118,7 +118,7 @@ export async function POST(req: Request) {
     model: 'gpt-3.5-turbo',
     messages: mensagemComContexto,
     temperature: 0.55,
-    max_tokens: 356,
+    max_tokens: 480,
     top_p: 1,
     frequency_penalty: 0,
     presence_penalty: 0,

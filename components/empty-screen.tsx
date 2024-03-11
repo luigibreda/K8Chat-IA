@@ -6,12 +6,12 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Quais endpoint existem?',
-    message: `Liste para mim todos os endpoints da API do Cobrancas`
+    heading: 'Quais endpoint existem de para criar Transações?',
+    message: `Liste endpoints de cria transação disponíveis na api do pagamentos Pay`
   },
   {
-    heading: 'Como criar uma transação?',
-    message: 'Me ensine a criar uma transação, me ensine passo a passo e de exemplos'
+    heading: 'Como autenticar na API?',
+    message: 'Me ensine a autenticar na api no endpoint /token tanto no Pay quanto no Cob'
   },
   {
     heading: 'Como gerar um boleto?',
