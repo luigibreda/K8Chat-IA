@@ -106,7 +106,7 @@ export async function POST(req: Request) {
 
   const mensagemComContexto = [
     ...treinamento,
-    messages
+    ...messages
   ];
   console.dir("mensagemComContexto: ", mensagemComContexto);
 
