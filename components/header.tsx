@@ -29,7 +29,7 @@ async function UserOrLogin() {
       ) : (
         <Link href="/" target="_blank" rel="nofollow">
           <IconK8 className="size-6 mr-2 dark:hidden" inverted />
-          <IconK8 className="hidden size-6 mr-2 dark:block" />
+          {/* <IconK8 className="hidden size-6 mr-2 dark:block" /> */}
         </Link>
       )}
       <div className="flex items-center">
