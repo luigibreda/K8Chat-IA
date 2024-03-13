@@ -1,6 +1,6 @@
 <a href="https://k8-chat-ia.vercel.app/">
+  <h1 align="center">K8 AI Chatbot</h1>
   <img alt="Next.js 14 and App Router-ready AI chatbot." src="https://github.com/luigibreda/K8Chat-IA/blob/main/public/print1.png">
-  <img alt="Next.js 14 and App Router-ready AI chatbot." src="https://github.com/luigibreda/K8Chat-IA/blob/main/public/print2.png">
   <h1 align="center">K8 AI Chatbot</h1>
 </a>
 
